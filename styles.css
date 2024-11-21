@@ -1,0 +1,121 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+.button-main {
+    background: #ADFF00;
+    border-radius: 20.5px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+/*________________________________________________________________________________________________*/
+
+/* 20° AULA - PROJETO N°1 FIGMA / RESPONSIVIDADE */
+
+@media screen and (max-width: 804px){
+    .container-left {
+        display: none;
+    }
+    p {
+        display: none;
+    }
+    .container-right {
+        display: block;
+        height: auto;
+        width: 80%;
+        position: static;
+        margin-left: 40px;
+    }
+    .logo-image {
+        position: static; 
+        max-width: 90%;
+        margin: 149px 50px 17px 50px;
+    }
+    h1 {
+        font-size: 80px;
+        line-height: 60.95px;
+        width: auto;
+        text-align: center;
+        margin: 24px 50px 17px 50px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 36.57px;
+        width: auto;
+        text-align: center;
+        margin: 17px 79px;
+    }
+    .button-main {
+        margin: 0 auto;
+        display: block;
+    }
+}
